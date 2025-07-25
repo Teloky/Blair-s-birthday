@@ -1,0 +1,40 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#BIRTHDAY{
+    color: lightcoral;
+    text-align: center;
+    font-size: 75px;
+    font-family: "Sour Gummy"
+}
+
+body{
+    background-color:rgb(223, 255, 244)
+}
+
+#Names{
+    list-style-type: none;
+    padding: 0;
+    font-size: 75px;
+    float: left;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#Marianne{
+    color: rgba(171, 206, 239, 0.819);
+    margin: 20px;
+}
+
+.margin{
+    margin: 20px;
+}
+
+#marianne-page{
+   color: rgba(26, 53, 78, 0.819);
+    text-align: center;
+    font-size: 75px;
+}
