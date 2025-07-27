@@ -1,4 +1,4 @@
-html{
+ html{
     scroll-behavior: smooth;
 }
 
@@ -27,14 +27,52 @@ body{
 #Marianne{
     color: rgba(171, 206, 239, 0.819);
     margin: 20px;
+    text-decoration: none;
+}
+
+#Marianne:visited{
+    text-decoration: none;
+    color: rgba(171, 206, 239, 0.819);
 }
 
 .margin{
     margin: 20px;
 }
 
+a:visited{
+    text-decoration: none;;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a:link{
+    text-decoration: none;
+}
 #marianne-page{
-   color: rgba(26, 53, 78, 0.819);
+   color: #1a354ed1;
     text-align: center;
     font-size: 75px;
+}
+
+#marianne-page a{
+    color: #1a354ed1;
+    text-decoration: none;
+}
+
+#index a{
+    text-decoration: none;
+    color: lightcoral;
+}
+
+#Nhumai-page{
+    text-align: center;
+    font-size: 75px;
+    color: rgb(255, 192, 192);
+}
+
+#Nhumai-page a{
+    text-decoration: none;
+    color: rgb(255, 192, 192);
 }
