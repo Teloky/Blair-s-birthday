@@ -1,38 +1,10 @@
- html{
+html{
     scroll-behavior: smooth;
 }
 
-#BIRTHDAY{
-    color: lightcoral;
-    text-align: center;
-    font-size: 75px;
-    font-family: "Sour Gummy"
-}
 
 body{
     background-color:rgb(223, 255, 244)
-}
-
-#Names{
-    list-style-type: none;
-    padding: 0;
-    font-size: 75px;
-    float: left;
-    display: flex; 
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-#Marianne{
-    color: rgba(171, 206, 239, 0.819);
-    margin: 20px;
-    text-decoration: none;
-}
-
-#Marianne:visited{
-    text-decoration: none;
-    color: rgba(171, 206, 239, 0.819);
 }
 
 .margin{
@@ -50,20 +22,46 @@ a:hover{
 a:link{
     text-decoration: none;
 }
-#marianne-page{
-   color: #1a354ed1;
+
+#BIRTHDAY{
+    color: lightcoral;
     text-align: center;
     font-size: 75px;
-}
-
-#marianne-page a{
-    color: #1a354ed1;
-    text-decoration: none;
+    font-family: "Sour Gummy"
 }
 
 #index a{
     text-decoration: none;
     color: lightcoral;
+}
+
+#Names{
+    list-style-type: none;
+    padding: 0;
+    font-size: 75px;
+    float: left;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#Marianne{
+    color: rgba(171, 206, 239, 0.819);
+    margin: 20px;
+    text-align: center;
+    font-size: 75px;
+    text-decoration: none;
+}
+
+#Marianne:visited{
+    text-decoration: none;
+    color: rgba(171, 206, 239, 0.819);
+}
+
+#Marianne-lower-half a{
+    text-decoration: none;
+    color: rgba(171, 206, 239, 0.819);
 }
 
 #Nhumai-page{
@@ -75,4 +73,34 @@ a:link{
 #Nhumai-page a{
     text-decoration: none;
     color: rgb(255, 192, 192);
+}
+
+#stupidcat{
+    color: #50939e;
+    text-decoration: none;
+    text-align: center;
+    font-size: 75px;
+}
+
+#stupidcat-lower-half a{
+    text-decoration: none;
+    color: #50939e;
+}
+
+#stupidcat-page{
+    color: #50939e;
+    font-size: 50px;
+    text-align:center;
+    margin: 0px 20px 350px 20px;
+    overflow: wrap;
+}
+
+#stupidcat-picture{
+    float: left;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border: 15px solid transparent;
+    border-image: url("../PHOTOS/lace-border-png-37005.png") 30 round;
+    border-image-slice: 60px 60px 60px 60px;
 }
