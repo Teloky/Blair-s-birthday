@@ -101,6 +101,6 @@ a:link{
     height: 500px;
     margin: auto;
     border: 15px solid transparent;
-    border-image: url("../PHOTOS/lace-border-png-37005.png") 30 round;
+    border-image: url("../PHOTOS/") 30 round;
     border-image-slice: 60px 60px 60px 60px;
 }
